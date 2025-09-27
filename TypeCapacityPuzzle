@@ -1,0 +1,14 @@
+public class TypeCapacityPuzzle {
+    public static void main(String[] args) {
+        int numberOfStudents = 1200;
+        char firstLetter = 'A';
+        boolean isLightOn = true;
+        double distanceBetweenPlanets = 149600000.0;
+
+        System.out.println("Number of students: "+numberOfStudents);
+        System.out.println("First letter of name: "+firstLetter);
+        System.out.println("Is light on? "+isLightOn);
+        System.out.println("Distance between planets (km): "+distanceBetweenPlanets);     
+        
+    }
+}
