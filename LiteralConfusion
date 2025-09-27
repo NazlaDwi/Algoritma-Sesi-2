@@ -1,0 +1,11 @@
+public class LiteralConfusion {
+    long big = 3000000000;
+    float f = 2.5;
+    char c = "A";
+}
+Error yang terjadi :
+long big =3000000000; >>> error karrena default literal angka dianggap int, sedangkan nilainya melebihi batas int
+float f = 2.5; >>> error karena default literal desimal dianggap double, tidak bisa langsung dimasukkan ke float
+char c = "A"; >>> error karena char harus satu karakter dengan ' (kutip satu) sedangkan "A" adalah string
+Solusi :
+tambahkan L, f, dan gunakan 'A'
