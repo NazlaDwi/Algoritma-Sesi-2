@@ -1,0 +1,12 @@
+public class OverflowExperiment {
+    int max = 2147483647;
+    System.out.println(max + 1);
+    
+}
+Penjelasan :
+int di java menggunakan 32 bit signed integer
+nilai maksimal int adalah 2147483647
+jika ditambah 1, akan overflow dan kembali ke nilai minimal int yaitu -2147483647
+java tidak error karena overflow ini perilaku normal dalam aritmatka bilangan bulat
+Solusi :
+gunakan tipe data yang lebih besar, misalnya long
