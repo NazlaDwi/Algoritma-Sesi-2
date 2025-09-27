@@ -1,0 +1,13 @@
+import java.math.BigDecimal;
+
+public class MoneyWithoutMistake {
+    public static void main(String[] args) {
+        BigDecimal bdPrice = new BigDecimal("19.99");
+        BigDecimal bdQty = new BigDecimal("3");
+        BigDecimal bdTaxRate = new BigDecimal("0.11");
+        BigDecimal totalBD = bdPrice.multiply (bdQty)
+                                    .multiply(BigDecimal.ONE.add(bdTaxRate));
+        System.out.println("Total pakai BigDecimal = " + totalBD);
+    
+    }
+}
